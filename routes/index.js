@@ -8,10 +8,10 @@ router.get('/', function(req, res, next) {
   
   // 50% 확률로 www.google.com으로 리디렉션
   if (randomNumber < 0.5) {
-    res.redirect('http://www.google.com');
+    res.redirect('https://forms.gle/CNPX1qTFi7Yqd77w6');
   } else {
     // 나머지 50% 확률로 www.naver.com으로 리디렉션
-    res.redirect('http://www.naver.com');
+    res.redirect('https://forms.gle/2bVowjCzsSVNhg9b9');
   }
 });
 
